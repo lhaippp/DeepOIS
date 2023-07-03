@@ -3,6 +3,9 @@
 
 We introduce Essential-Mixtures Model to calculate GT labels, which is effective. However, it requires non-trivial computation resources and is not stable. So we here provide an alternative method called [Homography Mixtures](https://github.com/lhaippp/Homography-Mixtures).
 
+## Model and Data
+The pretrain-model, benchmark, trainset could be found at [google-drive](https://drive.google.com/drive/folders/1UeJdy4b2hl3uL2ar1wd2t2w7rKlkC942?usp=sharing)
+
 ## Inference
 
 coming soon
