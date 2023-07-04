@@ -9,7 +9,7 @@ The pretrain-model, benchmark, trainset could be found at [google-drive](https:/
 - Download and Put `GF4-Val.txt` `GF4-Val` to the root path
 - Download and Unzip`pretrain-model` to the root path
 
-Here is the [colab](todo) demo for illustrating the GF4 benchmark
+Here is the [colab](https://colab.research.google.com/drive/1ZJBiqm5E4-ooPmRLWohb0pSMemd5l0Tp?usp=sharing) demo for illustrating the GF4 benchmark
 
 ## Inference
 
