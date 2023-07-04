@@ -6,9 +6,14 @@ We introduce Essential-Mixtures Model to calculate GT labels, which is effective
 ## Model and Data
 The pretrain-model, benchmark, trainset could be found at [google-drive](https://drive.google.com/drive/folders/1UeJdy4b2hl3uL2ar1wd2t2w7rKlkC942?usp=sharing)
 
+- Download and Put `GF4-Val.txt` `GF4-Val` to the root path
+- Download and Unzip`pretrain-model` to the root path
+
+Here is the [colab](todo) demo for illustrating the GF4 benchmark
+
 ## Inference
 
-coming soon
+`sudo python3 test_demo.py --data_dir TestDatasetItem.npy --model_dir pretrain-model --restore_file best`
 
 ## Training
 
