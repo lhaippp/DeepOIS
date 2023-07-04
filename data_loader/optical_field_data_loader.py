@@ -93,7 +93,7 @@ def fetch_dataloader(types, data_dir, params):
                                 num_workers=params.num_workers,
                                 drop_last=True)
             elif split == 'test':
-                dl = DataLoader(TestDataset("/data/cs230-code-examples/pytorch/vision/TestDatasetItem.npy"),
+                dl = DataLoader(TestDataset("TestDatasetItem.npy"),
                                 batch_size=1,
                                 shuffle=False,
                                 num_workers=params.num_workers)

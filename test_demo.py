@@ -116,8 +116,8 @@ def test(model, dataloader, metrics, params, gif_path, verbose=True):
     cnt = 0
 
     # 整体测试
-    pair_list = list(open('/data/jupyter/gyro_calib/global_test_NPZ/Test_List.txt'))
-    npy_path = os.path.join('/data/jupyter/gyro_calib/global_test_NPZ/Test_Set')
+    pair_list = list(open('Test_List.txt'))
+    npy_path = os.path.join('Test_Set')
 
     re_1_cnt = 0
     re_2_cnt = 0
